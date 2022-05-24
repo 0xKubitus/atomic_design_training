@@ -91,3 +91,15 @@
 .footer-titles {
   color:#F0E68C;
 }
+
+.forms-body {
+  display: flex;
+  justify-content: center;
+  background-color: #FBFEFF;
+}
+
+.forms-container {
+  width:100%;
+  max-width: 480px;  
+  background-color: white;
+}

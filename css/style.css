@@ -95,10 +95,12 @@
 .forms-body {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #FBFEFF;
 }
 
 .forms-container {
+  height: 100%;
   width:100%;
   max-width: 480px;  
   background-color: white;
@@ -106,4 +108,30 @@
 
 .submit-boutton {
   margin-top: 30px;
+}
+
+.banner1-container {
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.banner1-text-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  color: rgb(221, 174, 87);
+  font-size: 32px;
+}
+
+.below-banner1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 130px;
+}
+
+.banner1-box-for-searchbar {
 }
